@@ -57,7 +57,7 @@ async function getBadiniTranslation(sourceText) {
             console.error("Gemini API Error Status:", apiResponse.status);
             const errorBody = await apiResponse.text();
             console.error("Error Body:", errorBody);
-            return "Sorry, I couldn't get a translation right now.";
+            return "هێڤیە بچەكێ خو بگرە پاشی وەرگێرانی بكاربینیە ژبەر زێدە بكارئینان بەكارهێنەرا";
         }
 
         const result = await apiResponse.json();
@@ -70,7 +70,7 @@ async function getBadiniTranslation(sourceText) {
         return translation;
     } catch (error) {
         console.error("Error calling Gemini API:", error);
-        return "An error occurred while translating. Please try again.";
+        return "هێڤیە بچەكێ خو بگرە پاشی وەرگێرانی بكاربینیە ژبەر زێدە بكارئینان بەكارهێنەرا";
     }
 }
 
