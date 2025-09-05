@@ -1,0 +1,14 @@
+{
+  "name": "badini-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for high-accuracy Badini translation.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
